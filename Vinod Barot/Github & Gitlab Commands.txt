@@ -1,0 +1,55 @@
+PC LOGIN 
+
+Usrnm - Amarjeet2866
+Psswrd - AN@123456
+----------------------------------------------
+
+GITHUB COMMANDS
+
+....…or create a new repository on the command line
+echo "# sample-project1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Vinny099/sample-project1.git
+git push -u origin master
+
+....…or push an existing repository from the command line
+git remote add origin https://github.com/Vinny099/sample-project1.git
+git push -u origin master
+
+-----------------------------------------------
+
+GITLAB Usrnm - Root // Psswrd - Admin@123456 // Gitlab Address- 139.59.37.43:8085
+
+GITLAB COMMANDS --
+
+Command line instructions
+
+Git global setup
+git config --global user.name "Administrator"
+git config --global user.email "admin@example.com"
+
+Create a new repository
+git clone http://gitlab2.flowzcluster.tk/root/Wednesday.git
+cd Wednesday
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+cd existing_folder
+git init
+git remote add origin http://gitlab2.flowzcluster.tk/root/Wednesday.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin http://gitlab2.flowzcluster.tk/root/Wednesday.git
+git push -u origin --all
+git push -u origin --tags
+------------------------------------
